@@ -1,0 +1,147 @@
+{
+	"bootstrap":{
+      "js": "js/bootstrap.min.js",
+      "css": "css/bootstrap.min.css",
+      "csspersonal": "css/personal.css"
+	},
+	"head": {
+      "title": "Mi trabajo",
+      "name": "José Alfredo Reyes de Antuñano (Dev & Entrepreneur)",
+      "avatar": "img/avatar.jpg"
+	},
+
+	"body": {
+	  "im": {
+        "title": "Yo",
+        "text": "Desarrollador de software especializado en tecnologías web.",
+        "age": "Con 25 Años",
+        "country": " Vivo en  México",
+        "timedev": "6 años Dev Web"
+	  },
+
+	  "skills":{
+       "title": "Mis Skills",
+       "my_skills":{
+        "sk1": {
+        	"title": "Ruby",
+        	"img": "img/icons/ruby.png", 
+        	"link":"https://www.ruby-lang.org/es/"
+        },
+        "sk2": {
+        	"title": "Ruby on Rails",
+        	"img": "img/icons/rails.png", 
+        	"link":"http://rubyonrails.org/"
+        },
+        "sk3": {
+        	"title": "Node",
+        	"img": "img/icons/nodejs.png", 
+        	"link":"http://nodejs.org/"
+        },
+        "sk4": {
+        	"title": "Phonegap",
+        	"img": "img/icons/phonegap.png", 
+        	"link":"http://phonegap.com/"
+        },
+        "sk5": {
+        	"title": "Handlebars",
+        	"img": "img/icons/i_hb.png", 
+        	"link":"http://handlebarsjs.com/"
+        },
+        "sk6": {
+          "title": "HTML",
+          "img": "img/icons/i_html.png", 
+          "link":"http://es.wikipedia.org/wiki/HTML"
+        },
+        "sk7": {
+          "title": "PHP",
+          "img": "img/icons/php.png", 
+          "link":"http://es.wikipedia.org/wiki/PHP"
+        },
+        "sk8": {
+          "title": "CSS",
+          "img": "img/icons/i_css.png", 
+          "link":"http://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada"
+        },
+        "sk9": {
+          "title": "JSON",
+          "img": "img/icons/i_json.png", 
+          "link":"http://es.wikipedia.org/wiki/JSON"
+        },
+        "sk10": {
+          "title": "JS",
+          "img": "img/icons/i_js.png", 
+          "link":"http://es.wikipedia.org/wiki/JavaScript"
+        }              
+      }               
+	  },
+
+    "social": {
+
+    },
+
+    "reconocimientos":{
+        "r1":{"text":"Mención honorífica en Campus Party internacional por Bibliofía."},
+        "r2":{"text":"Reconocimiento de parte del IPN por la plataforma Bibliofía."},
+        "r3":{"text":"Ha sido protagonista de diversos reportajes tanto en la web}, como en medios impresos y televisivos por sus logros con el Proyecto Bibliofía."},
+        "r4":{"text":"Candidato al premio nacional a la juventud por el IPN."},
+        "r5":{"text":"Ganador de Genera MX por el proyecto Cúrsame. 2010"},
+        "r6":{"text":"Reconocimiento de la Escuela Superior de Economía del IPN por Cúrsame."},
+        "r7":{"text":"Ganador de Wayra Week 2011."},
+        "r8":{"text":"Ganador del Segundo lugar del Premio al Estudiante Emprendedor (Segunda semana del emprendedor SEP 2012) en el area de tecnología. (Cúrsame)"},
+        "r9":{"text":"Ganador del segundo lugar en el premio Santander a la Inovación empresarial 2013 (Cúrsame)"},
+        "r10":{"text":"Ganador del premio Entrepreneur HP  2013 (Cúrsame)"}
+    },
+
+    "experiencias":{
+        "xp0": {"text": "Analista de patentes de intel para el CIECAS IPN 2007-2009"},
+        "xp1": {"text": "Ganador del premio inter-politécnico de informática por su proyecto enlace superior"},
+        "xp2": {"text": "Software architect de la Red de Emprendedores de Sep (2012-2014)"},
+        "xp3": {"text": "Software architect de Experto Movistar para Telefónica México (2011-2012)"},
+        "xp4": {"text": "Desarrollador en jefe de Bibliofía (2010)"},
+        "xp5": {"text": "Software architect de Cúrsame (2011-2014)"},
+        "xp6": {"text": "Editor web en la Revista la Costa (2013)"},
+        "xp7": {"text": "Software architect Radar Escolar (2014-?)"},
+        "xp8": {"text": "Desarrollador de la pagína de la agencia de modelos HUNT (2014-?)"}
+    },
+
+    "my_work": {
+       "title": "Mis mejores aplicaciones",
+       "apps": {
+          "cursame": {
+              "url": "http://www.cursa.me",
+              "name": "Cúrsame",
+              "img": "img/apps/cursame.png", 
+              "description": "Cúrsame es una plataforma que conjunta una red social y nu sistema de aprendizaje en linea. En esta aplicación hemos desarrollado diversa a plicaciones como son la red de emprendedores de SEP y Experto Movistar para telefónica México, así como participar y ganar un piloto federal de tabletas con grupo IUSA.",
+              "devtime":"4 años de desarrollo",
+              "workin": "Soy founder de Cúrsame y fungi como CTO hasta abril el 2014 cuando decidí con mis socios que fundariamos el area de innovación de la empresa la que actualmente presido. "
+            },
+           "radar_escolar":{
+              "url": "http://www.radarescolar.com/",
+              "name": "Radar Escolar",
+              "img": "img/apps/radar.png", 
+              "description": "Radar escolar es una aplicación desarrollada para prevención del Bullying dentro de las instituciones académicas. ",
+              "devtime":"6 meses de desarrollo",
+              "workin": "He desarrollado gran parte deesta aplicación dentro del area de innovación de cúrsame."           
+           },
+           "idoctore":{
+              "url": "http://idoctore.com",
+              "name": "IDoctore",
+              "img": "img/apps/idoctore.png", 
+              "description": "IDoctore es un aplicacón para manejo de expedientes y citas médicas, su uso a manera de medio de comunicación integral permite al paciente y al doctor acceder de una forma rapida y eficaz los datos del o sus pacientes.",
+              "devtime":"9 meses de desarrollo",
+              "workin": "Este sistema fue ideado por emprendedores para solucionar el problema de manejo de diagnósticos médicos, actualmente funjo como su SA (Software Architect)."            
+           },
+           "hunt":{
+              "url": "http://agenciahunt.com.mx/",
+              "name": "HUNT Modelos & Edecanes",
+              "img": "img/apps/hunt.png",
+              "description": "Agencia de edecanes de primer nivel con sede en Acapulco Gerrero",
+              "devtime":"2 meses de desarrollo",      
+              "workin": "Este proyecto que es liderado por emprendedores que buscan darle un toque sexy a la publicidad." 
+           }
+       }
+
+    }
+
+	}
+}

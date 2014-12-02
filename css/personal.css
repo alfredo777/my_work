@@ -1,0 +1,84 @@
+.bannertop{
+	width:100%;
+	padding:10px;
+	height:160px;
+    text-align: center center;
+    color:#494949;
+
+    background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+  background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
+}
+
+body{
+  color:#000;
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+  background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
+}
+
+.margin-20{
+	margin:20px;
+}
+
+.work-in{
+	width:100%;
+	padding: 30px;
+	/*color:#567574;*/
+	color:#FFFFFF;
+	background: url("../img/escheresque_ste.png");
+	min-height: 100px;
+}
+.contact-in{
+  width:100%;
+  padding: 30px;
+  /*color:#567574;*/
+  color:#FFFFFF;
+  background: url("../img/grey_wash_wall.png");
+  min-height: 100px;
+}
+.skills-in{
+  width:100%;
+  padding: 30px;
+  /*color:#567574;*/
+  color:#FFFFFF;
+  background: url("../img/footer_lodyas.png");
+  min-height: 100px;
+}
+.hexagon {
+  position: relative;
+  width: 180px; 
+  height: 103.92px;
+  background-color: #101017;
+  margin: 51.96px 0;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 51.96px solid #101017;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 51.96px solid #101017;
+}

@@ -1,0 +1,120 @@
+<script type="text/javascript" src="{{bootstrap.js}}"></script>
+<link rel="stylesheet" type="text/css" href="{{bootstrap.css}}">
+<link rel="stylesheet" type="text/css" href="{{bootstrap.csspersonal}}">
+<div class="bannertop">
+	<img src="{{head.avatar}}" width="100"  class="img-thumbnail pull-left margin-20">
+	<div class="pull-left margin-20"><h2>{{head.title}}</h2> <h3> {{head.name}}</h3></div>
+</div>
+<div class="work-in">
+	<div class="container ">
+		<h4>
+		<div class="pull-left margin-20">
+			<div class="hexagon">
+				<p style="padding-top:8px;"><center><h1>{{body.im.title}}</h1></center></p>
+			</div>
+		</div>
+		<div class="pull-left margin-20">
+			<div class="hexagon">
+				<p style="padding:4px;"><center>{{body.im.text}}</center></p>
+			</div>
+		</div>
+		<div class="pull-left margin-20">
+			<div class="hexagon">
+				<p style="padding:4px;"><center>{{body.im.country}}</center></p>
+			</div>
+		</div>
+		<div class="pull-left margin-20">
+			<div class="hexagon">
+				<p style="padding:4px;"><center>{{body.im.timedev}}</center></p>
+			</div>
+		</div>
+		<div class="pull-left margin-20">
+			<div class="hexagon">
+				<p style="padding:4px;"><center>{{body.im.age}}</center></p>
+			</div>
+		</div>
+		
+		</h4>
+	</div>
+</div>
+<div class="container " >
+	<h1>{{body.my_work.title}}</h1>
+	{{#each body.my_work.apps}}
+	<a href="{{url}}" target="_blank"><h3>{{name}}</h3></a>
+	<a href="{{url}}" target="_blank"><img src="{{img}}" class="img-thumbnail"></a>
+	<h4>{{description}}</h4>
+	<blockquote>
+		<h4>{{devtime}}</h4> </br>
+		{{workin}}
+	</blockquote>
+	{{/each}}
+</div>
+<div  class=" skills-in" >
+	<div class="container">
+		<h1>{{body.skills.title}}</h1>
+		<div class="row">
+			{{#each body.skills.my_skills}}
+			<div class="col-md-2 pull-left">
+				<a href="{{link}}" target="_blank">
+					<center>
+					<img src="{{img}}" class="img-thumbnail" width="70" style="height:70px !important;" ></br>
+					<p>{{title}}</p>
+					</center>
+				</a>
+			</div>
+			{{/each}}
+		</div>
+	</div>
+</div>
+<div class=" contact-in">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 ">
+				<h1>Contacto</h1>
+				<form name="contactform" method="post" action="send_email.php" class="form-horizontal" role="form">
+					<div class="form-group">
+						<label for="first_name">Nombre</label></br>
+						<input  type="text" name="first_name" maxlength="50" size="50">
+					</div>
+					<div class="form-group">
+						<label for="last_name">Apellido</label></br>
+						<input  type="text" name="last_name" maxlength="50" size="50">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label></br>
+						<input  type="text" name="email" maxlength="80" size="50">
+					</div>
+					<div class="form-group">
+						<label for="telephone">Teléfono</label></br>
+						<input  type="text" name="telephone" maxlength="30" size="50">
+					</div>
+					<div class="form-group">
+						<label for="comments">Comentarios</label></br>
+						<textarea  name="comments" maxlength="1000" cols="45" rows="9"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Enviar" class="btn btn-default">
+					</div>
+				</form>
+			</div>
+			<div class="col-xs-6">
+				<h1>
+					Experiencia
+				</h1>
+				<ul>
+                {{#each body.experiencias}}
+                	<li>{{text}}</li>
+                {{/each}}
+                </ul>
+			    <h1>
+			       Reconocimientos
+			    </h1>
+
+				<ul>
+				{{#each body.reconocimientos}}
+				 <li> {{text}} </li>
+				{{/each}}
+				</ul>
+			</div>
+		</div>
+	</div>
