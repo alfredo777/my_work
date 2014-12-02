@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "jardarubydv@gmail.com";
  
-    $email_subject = "Your email subject line";
+    $email_subject = "Contacto online";
  
      
  
@@ -72,33 +72,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $string_exp = "/^[A-Za-z .'-]+$/";
- 
-  if(!preg_match($string_exp,$first_name)) {
- 
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
- 
-  }
- 
-  if(!preg_match($string_exp,$last_name)) {
- 
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
- 
-  }
- 
-  if(strlen($comments) < 2) {
- 
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
- 
-  }
- 
-  if(strlen($error_message) > 0) {
- 
-    died($error_message);
- 
-  }
- 
-    $email_message = "Form details below.\n\n";
+    $email_message = "Formulario de contacto.\n\n";
  
      
  
@@ -144,7 +118,7 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-Thank you for contacting us. We will be in touch with you very soon.
+Graccias por contactarnos.
  
  
  

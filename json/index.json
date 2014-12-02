@@ -2,7 +2,9 @@
 	"bootstrap":{
       "js": "js/bootstrap.min.js",
       "css": "css/bootstrap.min.css",
-      "csspersonal": "css/personal.css"
+      "csspersonal": "css/personal.css",
+      "remote_contact": "js/send_form_json.js",
+      "jasvalidate": "js/jquery.validate.min.js"
 	},
 	"head": {
       "title": "Mi trabajo",

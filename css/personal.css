@@ -25,6 +25,16 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
 }
 
+.foo{
+  background: #000;
+  color: #fff;
+  width:100%;
+  min-height:200px;
+  padding: 30px;
+  margin-top: 0;
+  bottom: 0;
+}
+
 .margin-20{
 	margin:20px;
 }

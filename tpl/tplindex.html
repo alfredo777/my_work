@@ -1,4 +1,6 @@
 <script type="text/javascript" src="{{bootstrap.js}}"></script>
+<script type="text/javascript" src="{{bootstrap.remote_contact}}"></script>
+<script type="text/javascript" src="{{bootstrap.jasvalidate}}"></script>
 <link rel="stylesheet" type="text/css" href="{{bootstrap.css}}">
 <link rel="stylesheet" type="text/css" href="{{bootstrap.csspersonal}}">
 <div class="bannertop">
@@ -71,26 +73,26 @@
 		<div class="row">
 			<div class="col-xs-6 ">
 				<h1>Contacto</h1>
-				<form name="contactform" method="post" action="send_email.php" class="form-horizontal" role="form">
+				<form id="contact" name="contactform" method="post" action="php/send_email.php" class="form-horizontal" role="form" enctype="multipart/form-data" style="color:#000;">
 					<div class="form-group">
-						<label for="first_name">Nombre</label></br>
-						<input  type="text" name="first_name" maxlength="50" size="50">
+						<label for="first_name">Nombre *</label></br>
+						<input  type="text" name="first_name" maxlength="50" size="50" required/>
 					</div>
 					<div class="form-group">
-						<label for="last_name">Apellido</label></br>
-						<input  type="text" name="last_name" maxlength="50" size="50">
+						<label for="last_name">Apellido *</label></br>
+						<input  type="text" name="last_name" maxlength="50" size="50" required/>
 					</div>
 					<div class="form-group">
-						<label for="email">Email</label></br>
-						<input  type="text" name="email" maxlength="80" size="50">
+						<label for="email">Email * </label></br>
+						<input  type="text" name="email" maxlength="80" size="50" required/>
 					</div>
 					<div class="form-group">
 						<label for="telephone">Teléfono</label></br>
-						<input  type="text" name="telephone" maxlength="30" size="50">
+						<input  type="text" name="telephone" maxlength="30" size="50" >
 					</div>
 					<div class="form-group">
-						<label for="comments">Comentarios</label></br>
-						<textarea  name="comments" maxlength="1000" cols="45" rows="9"></textarea>
+						<label for="comments">Comentarios *</label></br>
+						<textarea  name="comments" maxlength="1000" cols="45" rows="9" required></textarea>
 					</div>
 					<div class="form-group">
 						<input type="submit" value="Enviar" class="btn btn-default">
@@ -99,22 +101,36 @@
 			</div>
 			<div class="col-xs-6">
 				<h1>
-					Experiencia
+				Experiencia
 				</h1>
 				<ul>
-                {{#each body.experiencias}}
-                	<li>{{text}}</li>
-                {{/each}}
-                </ul>
-			    <h1>
-			       Reconocimientos
-			    </h1>
-
+					{{#each body.experiencias}}
+					<li>{{text}}</li>
+					{{/each}}
+				</ul>
+				<h1>
+				Reconocimientos
+				</h1>
 				<ul>
-				{{#each body.reconocimientos}}
-				 <li> {{text}} </li>
-				{{/each}}
+					{{#each body.reconocimientos}}
+					<li> {{text}} </li>
+					{{/each}}
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="foo">
+	<div class="container center-block">
+		<h5> Tecnologías en esta web <a href="http://www.alfredoreyes.me">Ir al Home</a></h5>
+		<div class="row center-block">
+			<div class="col-md-6 center-block">
+				<img src="{{ body.skills.my_skills.sk10.img }}" class="img-thumbnail pull-left" width="40" style="height:40px !important;" >
+				<img src="{{ body.skills.my_skills.sk7.img }}" class="img-thumbnail pull-left" width="40" style="height:40px !important;" >
+				<img src="{{ body.skills.my_skills.sk8.img }}" class="img-thumbnail pull-left" width="40" style="height:40px !important;" >
+				<img src="{{ body.skills.my_skills.sk9.img }}" class="img-thumbnail pull-left" width="40" style="height:40px !important;" >
+				<img src="{{ body.skills.my_skills.sk5.img }}" class="img-thumbnail pull-left" width="40" style="height:40px !important;" >
+			</div>
+		</div>
+	</div>
+</div>
