@@ -3,17 +3,17 @@
 	padding:10px;
 	height:160px;
     text-align: center center;
-    color:#494949;
-  background:#000;
+    color:#fff;
+  background:#252525;
 }
 
 body{
   color:#000;
-  background: #000;
+  background: #252525;
 }
 
 .foo{
-  background: #000;
+  background: #252525;
   color: #fff;
   width:100%;
   min-height:200px;
@@ -62,14 +62,19 @@ p{
   background: url("../img/footer_lodyas.png");
   min-height: 100px;
 }
+
+.iclass{
+  font-size:50px;
+  color: #fff;
+}
 .hexagon {
   position: relative;
   width: 180px; 
   height: 103.92px;
-  background-color: #585858;
+  background-color: #2093BD;
   margin: 51.96px 0;
   /*opacity: 0.5;*/
-  color:#FAAC58 !important;
+  color:#fff !important;
   font-size: 14px;
   text-align: 50% 50%;
    vertical-align: 50%;
@@ -87,11 +92,11 @@ p{
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 51.96px solid #585858;
+  border-bottom: 51.96px solid #2093BD;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 51.96px solid #585858;
+  border-top: 51.96px solid #2093BD;
 }
