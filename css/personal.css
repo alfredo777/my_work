@@ -4,25 +4,12 @@
 	height:160px;
     text-align: center center;
     color:#494949;
-
-    background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
-  background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
+  background:#000;
 }
 
 body{
   color:#000;
-  background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
-  background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
+  background: #000;
 }
 
 .foo{
@@ -42,10 +29,22 @@ body{
 .work-in{
 	width:100%;
 	padding: 30px;
-	/*color:#567574;*/
 	color:#FFFFFF;
 	background: url("../img/escheresque_ste.png");
 	min-height: 100px;
+}
+h1, h2{
+  color:#FAAC58;
+}
+
+h3{
+  color:#F7D358;
+}
+p{
+  color:#F7D358;
+}
+ h4, h5, h6, blockquote{
+ color:#D8D8D8; 
 }
 .contact-in{
   width:100%;
@@ -67,10 +66,14 @@ body{
   position: relative;
   width: 180px; 
   height: 103.92px;
-  background-color: #101017;
+  background-color: #585858;
   margin: 51.96px 0;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  /*opacity: 0.5;*/
+  color:#FAAC58 !important;
+  font-size: 14px;
+  text-align: 50% 50%;
+   vertical-align: 50%;
+  /*filter: alpha(opacity=50);*/
 }
 
 .hexagon:before,
@@ -84,11 +87,11 @@ body{
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 51.96px solid #101017;
+  border-bottom: 51.96px solid #585858;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 51.96px solid #101017;
+  border-top: 51.96px solid #585858;
 }
